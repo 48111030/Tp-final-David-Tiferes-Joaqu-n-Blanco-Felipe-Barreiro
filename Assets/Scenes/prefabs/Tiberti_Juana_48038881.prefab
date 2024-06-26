@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 896630450845684237}
   - component: {fileID: 896630450844717261}
   - component: {fileID: 54716020668450954}
-  - component: {fileID: 65600847086759640}
+  - component: {fileID: 135538269209734808}
   m_Layer: 0
   m_Name: Tiberti_Juana_48038881
   m_TagString: Untagged
@@ -93,10 +93,10 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 10
   m_CollisionDetection: 0
---- !u!65 &65600847086759640
-BoxCollider:
+--- !u!135 &135538269209734808
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -106,5 +106,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.9758224, y: 0.13929844, z: 2.1745439}
+  m_Radius: 0.5
   m_Center: {x: -0.0021012127, y: 0.06964922, z: 0.08727193}
