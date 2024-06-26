@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -256,8 +256,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: -0.08717229, y: 0.8995905, z: -0.21045253, w: -0.37262273}
-  m_LocalPosition: {x: 9.012197, y: 6.308537, z: 9.0121975}
+  m_LocalRotation: {x: -0.132325, y: 0.8629849, z: -0.29300186, w: -0.38973993}
+  m_LocalPosition: {x: 13.723786, y: 14.234369, z: 13.229464}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -429,9 +429,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alimentos:
-  - {fileID: 1266452199901300531, guid: 69583d93f17514640adc8bb2c2560a9d, type: 3}
-  - {fileID: 1924263328451980874, guid: 8218c0509ed5aa84486f41890e7ffd6d, type: 3}
-  - {fileID: 4654139430062599131, guid: f50354c075e322543b8dfd2e9b061201, type: 3}
+  - {fileID: 2300892237327892080, guid: 8056f216a9fd19d40876655f0ac8c467, type: 3}
+  - {fileID: 2891660510589411944, guid: ace9bbb7388eef34cb9faf9521700a28, type: 3}
+  - {fileID: 708745797876108839, guid: 978b97c55f49fc04ea05ac2c3d5ec196, type: 3}
+  - {fileID: 913242495947072483, guid: d4d7d88ef066f204292f8afc47ddd8d9, type: 3}
+  - {fileID: 4604159923593905664, guid: b40be6efd8650d645b921ab53b70c234, type: 3}
+  - {fileID: 9110959734029743851, guid: ca5b83700228691409d1066505fe38b2, type: 3}
+  - {fileID: 1657583530326056158, guid: c1c50891239cf9546ade4b2d81de39e2, type: 3}
+  - {fileID: 6302682568070340681, guid: 377c846e142d3154ea0a940a75cd8422, type: 3}
+  - {fileID: 8345207080337998261, guid: 0d9e7b7980c8675479a8d7622ef12497, type: 3}
+  - {fileID: 5490696291246211144, guid: c3f78cc6a21898541b948ce52c047327, type: 3}
+  - {fileID: 796527995413761985, guid: 7ffa77d3533aaad4f807094dbe810f9b, type: 3}
+  - {fileID: 6655180505205448372, guid: 508e7559e6586eb4ab97a3c87eb1e16f, type: 3}
+  - {fileID: 8798776142207383713, guid: 89cae63394827f34f97ee72e16580b24, type: 3}
+  - {fileID: 896630450842717709, guid: 2f2d8729e9b1b124e8490acba83ecf79, type: 3}
+  - {fileID: 4858389798866710062, guid: 590a5df64a29d4b4291f15806b57554b, type: 3}
   clonePoint: {fileID: 1607194896}
   interval: 0.6
   posicionAleatoriaDeClonePoint: {fileID: 1607194895}
