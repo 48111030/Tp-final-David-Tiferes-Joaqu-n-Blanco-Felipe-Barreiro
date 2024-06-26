@@ -16,6 +16,7 @@ public class FoodInstantiator : MonoBehaviour
     void Start()
     {
         InvokeRepeating(nameof(CloneFood), 0, interval);
+        maxClones = Random.Range(2, 7);
     }
 
     // Update is called once per frame

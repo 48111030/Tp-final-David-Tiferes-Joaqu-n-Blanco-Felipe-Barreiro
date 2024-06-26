@@ -436,7 +436,7 @@ MonoBehaviour:
   interval: 0.6
   posicionAleatoriaDeClonePoint: {fileID: 1607194895}
   cloneCount: 0
-  maxClones: 10
+  maxClones: 4
 --- !u!4 &2075310921
 Transform:
   m_ObjectHideFlags: 0
