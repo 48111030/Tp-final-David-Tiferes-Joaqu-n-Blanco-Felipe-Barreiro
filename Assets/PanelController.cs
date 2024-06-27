@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PanelController : MonoBehaviour
 {
@@ -61,5 +62,9 @@ public class PanelController : MonoBehaviour
     private void StartGame()
     {
 
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(0);   
     }
 }

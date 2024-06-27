@@ -24,8 +24,9 @@ public class FoodInstantiator : MonoBehaviour
 
     }
 
-    void CloneFood()
+    public void CloneFood()
     {
+        //DeactivateAll();
         if (cloneCount < maxClones)
         {
             cloneCount++;
@@ -35,5 +36,15 @@ public class FoodInstantiator : MonoBehaviour
         }
 
     }
+    public void DeactivateAll()
+    {
+        for (int i = 0; i < alimentos.Length; i++)
+        {
+            alimentos[i].SetActive(false);
+        }
+    }
+
+
+
 }
 
