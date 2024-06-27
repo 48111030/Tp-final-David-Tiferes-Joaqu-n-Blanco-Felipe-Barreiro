@@ -1,8 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//Agregar una variable que establezca la cantidad de veces que se instanciará 
-//un alimento. Cuando se instancie esa cantidad de alimentos, no deben instanciarse más
+
 public class FoodInstantiator : MonoBehaviour
 {
     public GameObject[] alimentos;
@@ -16,6 +15,7 @@ public class FoodInstantiator : MonoBehaviour
     void Start()
     {
         InvokeRepeating(nameof(CloneFood), 0, interval);
+        maxClones = Random.Range(3, 7);
     }
 
     // Update is called once per frame
@@ -24,8 +24,9 @@ public class FoodInstantiator : MonoBehaviour
 
     }
 
-    void CloneFood()
+    public void CloneFood()
     {
+        //DeactivateAll();
         if (cloneCount < maxClones)
         {
             cloneCount++;
@@ -35,5 +36,15 @@ public class FoodInstantiator : MonoBehaviour
         }
 
     }
+    public void DeactivateAll()
+    {
+        for (int i = 0; i < alimentos.Length; i++)
+        {
+            alimentos[i].SetActive(false);
+        }
+    }
+
+
+
 }
 
