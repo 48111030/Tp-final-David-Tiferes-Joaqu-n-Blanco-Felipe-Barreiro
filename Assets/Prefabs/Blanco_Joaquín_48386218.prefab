@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8018196283831276880}
   - component: {fileID: 8018196283832046960}
   - component: {fileID: 8018196283833178032}
+  - component: {fileID: 114363231475592444}
   m_Layer: 0
   m_Name: "Blanco_Joaqu\xEDn_48386218"
   m_TagString: Untagged
@@ -78,3 +79,15 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &114363231475592444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8018196283830913392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdfd4ebd5439bc4eac75585b1c1d3af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
