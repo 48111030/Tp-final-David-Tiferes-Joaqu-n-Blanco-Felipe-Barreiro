@@ -41,17 +41,16 @@ public class PanelController : MonoBehaviour
 
     public void CheckAnswer()
     {
-        
-        if (Convert.ToInt32(input_Respuesta.text) == script.maxClones)
+        if (input_Respuesta.text == "")
+        {
+            panelBase.SetActive(false);
+            panelInputVacio.SetActive(true);
+        }
+        else if (int.Parse(input_Respuesta.text) == script.maxClones)
         {
             panelRespuestaCorrecta.SetActive(true);
             panelBase.SetActive(false);
         }
-        else if (input_Respuesta.text == "")
-        {
-            panelBase.SetActive(false);
-            panelInputVacio.SetActive(true);
-        } 
         else
         {
             panelRespuestaIncorrecta.SetActive(true);
