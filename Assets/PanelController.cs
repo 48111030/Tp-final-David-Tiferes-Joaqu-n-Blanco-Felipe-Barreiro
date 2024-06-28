@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +13,7 @@ public class PanelController : MonoBehaviour
     public GameObject panelRespuestaIncorrecta;
 
     public FoodInstantiator script;
+    public InputField input_Respuesta;
 
     // Start is called before the first frame update
     void Start()
@@ -25,27 +27,27 @@ public class PanelController : MonoBehaviour
         
     }
 
-    private void HideInputVacioPanel()
+    public void HideInputVacioPanel()
     {
         panelInputVacio.SetActive(false);
         panelBase.SetActive(true);
     }
 
-    private void HideRespuestaIncorrectaPanel()
+    public void HideRespuestaIncorrectaPanel()
     {
         panelRespuestaIncorrecta.SetActive(false);
         panelBase.SetActive(true);
     }
 
-    private void CheckAnswer()
+    public void CheckAnswer()
     {
-        /*
-        if (panelBase.input_Respuesta.text == script.maxClones)
+        
+        if (Convert.ToInt32(input_Respuesta.text) == script.maxClones)
         {
             panelRespuestaCorrecta.SetActive(true);
             panelBase.SetActive(false);
         }
-        else if (panelBase.input_Respuesta.text == "")
+        else if (input_Respuesta.text == "")
         {
             panelBase.SetActive(false);
             panelInputVacio.SetActive(true);
@@ -56,10 +58,10 @@ public class PanelController : MonoBehaviour
             panelBase.SetActive(false);
         }
 
-       */
+       
     }
 
-    private void StartGame()
+    public void StartGame()
     {
 
     }
