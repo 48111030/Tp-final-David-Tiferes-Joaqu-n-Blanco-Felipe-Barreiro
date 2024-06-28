@@ -664,6 +664,21 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9153557758709910649, guid: c7659cd2bd5da1342a42a6040e852cd4,
+        type: 3}
+      propertyPath: m_ContentType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153557758709910649, guid: c7659cd2bd5da1342a42a6040e852cd4,
+        type: 3}
+      propertyPath: m_KeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153557758709910649, guid: c7659cd2bd5da1342a42a6040e852cd4,
+        type: 3}
+      propertyPath: m_CharacterValidation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9153557759109181428, guid: c7659cd2bd5da1342a42a6040e852cd4,
         type: 3}
       propertyPath: m_FontData.m_FontSize
